@@ -17,21 +17,25 @@ struct Home: View {
             ZStack {
                 TabView {
                     Feed()
+                        .navigationBarHidden(true)
                         .tabItem {
 //                            Image("Home")
                             Image(systemName: "house.fill")
                         }
                     SearchView()
+                        .navigationBarHidden(true)
                         .tabItem {
 //                            Image("Search")
                             Image(systemName: "magnifyingglass")
                         }
                     NotificationsView()
+                        .navigationBarHidden(true)
                         .tabItem {
 //                            Image("Notifications")
                             Image(systemName: "bell")
                         }
                     MessagesView()
+                        .navigationBarHidden(true)
                         .tabItem {
                             Image(systemName: "ellipsis.message")
                         }

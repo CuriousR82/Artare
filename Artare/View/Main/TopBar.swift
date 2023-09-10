@@ -8,26 +8,30 @@
 import SwiftUI
 
 struct TopBar: View {
-    
+    @Binding var x: CGFloat
     @State var width = UIScreen.main.bounds.width
     
     var body: some View {
         VStack {
             HStack {
-                Spacer(minLength: 0)
-                
-                Image(systemName: "paintbrush.pointed.fill")
-                    .foregroundColor(.blue)
-                    .padding(.leading, 30)
-                
-                Spacer(minLength: 0)
-                
                 Button(action: {
-                    
+                    withAnimation {
+                        x = 0
+                    }
                 }, label: {
                     Image(systemName: "line.horizontal.3")
                         .font(.system(size: 24))
                 })
+                
+                Spacer(minLength: 0)
+                
+                Image(systemName: "paintbrush.pointed.fill")
+                    .foregroundColor(.blue)
+                    .padding(.trailing, 30)
+                
+                Spacer(minLength: 0)
+                
+                
             }
             .padding()
             
@@ -40,8 +44,8 @@ struct TopBar: View {
     }
 }
 
-struct TopBar_Previews: PreviewProvider {
-    static var previews: some View {
-        TopBar()
-    }
-}
+//struct TopBar_Previews: PreviewProvider {
+//    static var previews: some View {
+//        TopBar()
+//    }
+//}
