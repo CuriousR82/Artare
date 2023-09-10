@@ -9,16 +9,48 @@
 /* Begin PBXBuildFile section */
 		EB35B4282AAD210800144B4C /* ArtareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B4272AAD210800144B4C /* ArtareApp.swift */; };
 		EB35B42A2AAD210800144B4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B4292AAD210800144B4C /* ContentView.swift */; };
-		EB35B42C2AAD210800144B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB35B42B2AAD210800144B4C /* Assets.xcassets */; };
 		EB35B42F2AAD210800144B4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB35B42E2AAD210800144B4C /* Preview Assets.xcassets */; };
+		EB35B4362AAD21A700144B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB35B4352AAD21A700144B4C /* Assets.xcassets */; };
+		EB35B4422AAD225900144B4C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B4412AAD225900144B4C /* Home.swift */; };
+		EB35B4482AAD35DF00144B4C /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B4472AAD35DF00144B4C /* Feed.swift */; };
+		EB35B44A2AAD35F100144B4C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B4492AAD35F100144B4C /* SearchView.swift */; };
+		EB35B44C2AAD360E00144B4C /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B44B2AAD360E00144B4C /* NotificationsView.swift */; };
+		EB35B44E2AAD361E00144B4C /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B44D2AAD361E00144B4C /* MessagesView.swift */; };
+		EB35B4502AAD49A000144B4C /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B44F2AAD49A000144B4C /* CreatePostView.swift */; };
+		EB35B4542AAD4B1900144B4C /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B4532AAD4B1900144B4C /* MultilineTextField.swift */; };
+		EB35B4562AAD567300144B4C /* PostCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B4552AAD567300144B4C /* PostCellView.swift */; };
+		EB35B4582AAD601700144B4C /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B4572AAD601700144B4C /* SearchCell.swift */; };
+		EB35B45A2AAD60F500144B4C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B4592AAD60F500144B4C /* SearchBar.swift */; };
+		EB35B45C2AAD63AF00144B4C /* SearchUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B45B2AAD63AF00144B4C /* SearchUserCell.swift */; };
+		EB35B45E2AAD65F200144B4C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B45D2AAD65F200144B4C /* Extensions.swift */; };
+		EB35B4602AAD6C7200144B4C /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B45F2AAD6C7100144B4C /* NotificationCell.swift */; };
+		EB35B4622AAD726200144B4C /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B4612AAD726200144B4C /* MessageCell.swift */; };
+		EB35B4642AAD791400144B4C /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B4632AAD791400144B4C /* TopBar.swift */; };
+		EB35B4662AAD7CE500144B4C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B4652AAD7CE500144B4C /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB35B4242AAD210800144B4C /* Artare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB35B4272AAD210800144B4C /* ArtareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtareApp.swift; sourceTree = "<group>"; };
 		EB35B4292AAD210800144B4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EB35B42B2AAD210800144B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB35B42E2AAD210800144B4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB35B4352AAD21A700144B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/twitter-clone-frontend 2/Shared/Assets.xcassets"; sourceTree = "<group>"; };
+		EB35B4412AAD225900144B4C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EB35B4472AAD35DF00144B4C /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		EB35B4492AAD35F100144B4C /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		EB35B44B2AAD360E00144B4C /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		EB35B44D2AAD361E00144B4C /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		EB35B44F2AAD49A000144B4C /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
+		EB35B4532AAD4B1900144B4C /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
+		EB35B4552AAD567300144B4C /* PostCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellView.swift; sourceTree = "<group>"; };
+		EB35B4572AAD601700144B4C /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		EB35B4592AAD60F500144B4C /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		EB35B45B2AAD63AF00144B4C /* SearchUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserCell.swift; sourceTree = "<group>"; };
+		EB35B45D2AAD65F200144B4C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EB35B45F2AAD6C7100144B4C /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		EB35B4612AAD726200144B4C /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		EB35B4632AAD791400144B4C /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		EB35B4652AAD7CE500144B4C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +83,22 @@
 		EB35B4262AAD210800144B4C /* Artare */ = {
 			isa = PBXGroup;
 			children = (
+				EB35B4462AAD227100144B4C /* Extensions */,
+				EB35B4452AAD226D00144B4C /* Services */,
+				EB35B4442AAD226700144B4C /* Model */,
+				EB35B4432AAD225D00144B4C /* ViewModel */,
+				EB35B43F2AAD224700144B4C /* View */,
+				EB35B43E2AAD224000144B4C /* Feed */,
+				EB35B43D2AAD223700144B4C /* Search */,
+				EB35B43C2AAD222D00144B4C /* Notifications */,
+				EB35B43B2AAD222400144B4C /* Messages */,
+				EB35B43A2AAD221900144B4C /* Authentication */,
+				EB35B4392AAD221100144B4C /* Items */,
+				EB35B4382AAD220A00144B4C /* Post */,
+				EB35B4372AAD21EE00144B4C /* Profile */,
 				EB35B4272AAD210800144B4C /* ArtareApp.swift */,
 				EB35B4292AAD210800144B4C /* ContentView.swift */,
-				EB35B42B2AAD210800144B4C /* Assets.xcassets */,
+				EB35B4352AAD21A700144B4C /* Assets.xcassets */,
 				EB35B42D2AAD210800144B4C /* Preview Content */,
 			);
 			path = Artare;
@@ -65,6 +110,121 @@
 				EB35B42E2AAD210800144B4C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB35B4372AAD21EE00144B4C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EB35B4382AAD220A00144B4C /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B44F2AAD49A000144B4C /* CreatePostView.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		EB35B4392AAD221100144B4C /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B4532AAD4B1900144B4C /* MultilineTextField.swift */,
+				EB35B4592AAD60F500144B4C /* SearchBar.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		EB35B43A2AAD221900144B4C /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		EB35B43B2AAD222400144B4C /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B44D2AAD361E00144B4C /* MessagesView.swift */,
+				EB35B4612AAD726200144B4C /* MessageCell.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		EB35B43C2AAD222D00144B4C /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B44B2AAD360E00144B4C /* NotificationsView.swift */,
+				EB35B45F2AAD6C7100144B4C /* NotificationCell.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		EB35B43D2AAD223700144B4C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B4492AAD35F100144B4C /* SearchView.swift */,
+				EB35B4572AAD601700144B4C /* SearchCell.swift */,
+				EB35B45B2AAD63AF00144B4C /* SearchUserCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		EB35B43E2AAD224000144B4C /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B4472AAD35DF00144B4C /* Feed.swift */,
+				EB35B4552AAD567300144B4C /* PostCellView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		EB35B43F2AAD224700144B4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B4402AAD224E00144B4C /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB35B4402AAD224E00144B4C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B4412AAD225900144B4C /* Home.swift */,
+				EB35B4632AAD791400144B4C /* TopBar.swift */,
+				EB35B4652AAD7CE500144B4C /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EB35B4432AAD225D00144B4C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EB35B4442AAD226700144B4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB35B4452AAD226D00144B4C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EB35B4462AAD227100144B4C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B45D2AAD65F200144B4C /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB35B42F2AAD210800144B4C /* Preview Assets.xcassets in Resources */,
-				EB35B42C2AAD210800144B4C /* Assets.xcassets in Resources */,
+				EB35B4362AAD21A700144B4C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +297,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB35B4562AAD567300144B4C /* PostCellView.swift in Sources */,
+				EB35B4662AAD7CE500144B4C /* MainView.swift in Sources */,
+				EB35B4622AAD726200144B4C /* MessageCell.swift in Sources */,
+				EB35B4582AAD601700144B4C /* SearchCell.swift in Sources */,
+				EB35B44A2AAD35F100144B4C /* SearchView.swift in Sources */,
 				EB35B42A2AAD210800144B4C /* ContentView.swift in Sources */,
+				EB35B45C2AAD63AF00144B4C /* SearchUserCell.swift in Sources */,
+				EB35B4482AAD35DF00144B4C /* Feed.swift in Sources */,
+				EB35B45A2AAD60F500144B4C /* SearchBar.swift in Sources */,
+				EB35B4422AAD225900144B4C /* Home.swift in Sources */,
+				EB35B4642AAD791400144B4C /* TopBar.swift in Sources */,
+				EB35B4502AAD49A000144B4C /* CreatePostView.swift in Sources */,
+				EB35B44E2AAD361E00144B4C /* MessagesView.swift in Sources */,
+				EB35B4542AAD4B1900144B4C /* MultilineTextField.swift in Sources */,
 				EB35B4282AAD210800144B4C /* ArtareApp.swift in Sources */,
+				EB35B44C2AAD360E00144B4C /* NotificationsView.swift in Sources */,
+				EB35B4602AAD6C7200144B4C /* NotificationCell.swift in Sources */,
+				EB35B45E2AAD65F200144B4C /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
