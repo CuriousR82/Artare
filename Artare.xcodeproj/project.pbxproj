@@ -30,6 +30,9 @@
 		EB35B4682AAE16E100144B4C /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B4672AAE16E100144B4C /* SlideMenu.swift */; };
 		EB35B46A2AAE184A00144B4C /* FollowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B4692AAE184A00144B4C /* FollowView.swift */; };
 		EB35B46C2AAE1B2E00144B4C /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B46B2AAE1B2E00144B4C /* MenuButton.swift */; };
+		EB93602B2AAE6CC300C61DD2 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB93602A2AAE6CC300C61DD2 /* UserProfile.swift */; };
+		EB93602D2AAE6E9E00C61DD2 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB93602C2AAE6E9E00C61DD2 /* BlurView.swift */; };
+		EB9360312AAEA66E00C61DD2 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9360302AAEA66E00C61DD2 /* TabButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +60,9 @@
 		EB35B4672AAE16E100144B4C /* SlideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
 		EB35B4692AAE184A00144B4C /* FollowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowView.swift; sourceTree = "<group>"; };
 		EB35B46B2AAE1B2E00144B4C /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		EB93602A2AAE6CC300C61DD2 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		EB93602C2AAE6E9E00C61DD2 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		EB9360302AAEA66E00C61DD2 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,8 @@
 		EB35B4372AAD21EE00144B4C /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				EB93602A2AAE6CC300C61DD2 /* UserProfile.swift */,
+				EB93602C2AAE6E9E00C61DD2 /* BlurView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -140,6 +148,7 @@
 				EB35B4592AAD60F500144B4C /* SearchBar.swift */,
 				EB35B4692AAE184A00144B4C /* FollowView.swift */,
 				EB35B46B2AAE1B2E00144B4C /* MenuButton.swift */,
+				EB9360302AAEA66E00C61DD2 /* TabButton.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -308,6 +317,7 @@
 			files = (
 				EB35B4562AAD567300144B4C /* PostCellView.swift in Sources */,
 				EB35B4662AAD7CE500144B4C /* MainView.swift in Sources */,
+				EB93602D2AAE6E9E00C61DD2 /* BlurView.swift in Sources */,
 				EB35B46C2AAE1B2E00144B4C /* MenuButton.swift in Sources */,
 				EB35B4622AAD726200144B4C /* MessageCell.swift in Sources */,
 				EB35B4582AAD601700144B4C /* SearchCell.swift in Sources */,
@@ -322,9 +332,11 @@
 				EB35B4502AAD49A000144B4C /* CreatePostView.swift in Sources */,
 				EB35B46A2AAE184A00144B4C /* FollowView.swift in Sources */,
 				EB35B44E2AAD361E00144B4C /* MessagesView.swift in Sources */,
+				EB93602B2AAE6CC300C61DD2 /* UserProfile.swift in Sources */,
 				EB35B4542AAD4B1900144B4C /* MultilineTextField.swift in Sources */,
 				EB35B4282AAD210800144B4C /* ArtareApp.swift in Sources */,
 				EB35B44C2AAD360E00144B4C /* NotificationsView.swift in Sources */,
+				EB9360312AAEA66E00C61DD2 /* TabButton.swift in Sources */,
 				EB35B4602AAD6C7200144B4C /* NotificationCell.swift in Sources */,
 				EB35B45E2AAD65F200144B4C /* Extensions.swift in Sources */,
 			);
