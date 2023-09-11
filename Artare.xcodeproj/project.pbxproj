@@ -33,6 +33,7 @@
 		EB93602B2AAE6CC300C61DD2 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB93602A2AAE6CC300C61DD2 /* UserProfile.swift */; };
 		EB93602D2AAE6E9E00C61DD2 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB93602C2AAE6E9E00C61DD2 /* BlurView.swift */; };
 		EB9360312AAEA66E00C61DD2 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9360302AAEA66E00C61DD2 /* TabButton.swift */; };
+		EB9360332AAEB69100C61DD2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9360322AAEB69100C61DD2 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		EB93602A2AAE6CC300C61DD2 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		EB93602C2AAE6E9E00C61DD2 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		EB9360302AAEA66E00C61DD2 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		EB9360322AAEB69100C61DD2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 		EB35B43A2AAD221900144B4C /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				EB9360322AAEB69100C61DD2 /* WelcomeView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				EB93602B2AAE6CC300C61DD2 /* UserProfile.swift in Sources */,
 				EB35B4542AAD4B1900144B4C /* MultilineTextField.swift in Sources */,
 				EB35B4282AAD210800144B4C /* ArtareApp.swift in Sources */,
+				EB9360332AAEB69100C61DD2 /* WelcomeView.swift in Sources */,
 				EB35B44C2AAD360E00144B4C /* NotificationsView.swift in Sources */,
 				EB9360312AAEA66E00C61DD2 /* TabButton.swift in Sources */,
 				EB35B4602AAD6C7200144B4C /* NotificationCell.swift in Sources */,

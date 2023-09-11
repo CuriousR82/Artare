@@ -40,7 +40,7 @@ struct UserProfile: View {
                             Image("banner")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
-                                .frame(width: UIScreen.main.bounds.width, height: minY > 0 ? 180 + minY : 180, alignment: .center)
+                                .frame(width: getRect().width, height: minY > 0 ? 180 + minY : 180, alignment: .center)
                                 .cornerRadius(0)
                             
                             BlurView()
@@ -52,6 +52,7 @@ struct UserProfile: View {
                                 Text("CuriousR")
                                     .fontWeight(.bold)
                                     .foregroundColor(.white)
+//                                    .padding(.top, 2)
                                 
                                 Text("150 Posts")
                                     .foregroundColor(.white)
@@ -165,14 +166,29 @@ struct UserProfile: View {
                             .frame(width: 0, height: 0), alignment: .top
                     )
                     .zIndex(1)
+                    
+                    VStack (spacing: 18) {
+                        PostCellView(post: "Hey Tim, are those regular glasses?", postImage: "post")
+                        
+                        Divider()
+                        
+                        ForEach(0..<20, id: \.self) { _ in
+                            PostCellView(post: sampleText)
+                            
+                            Divider()
+                        }
+                    }
+                    .padding(.top)
+                    .zIndex(0)
                 }
-                
+                .padding(.horizontal)
+                .zIndex(-offset > 80 ? 0 : 1)
             }
         })
-        //        .ignoresSafeArea(.all, edges: .top)
+                .ignoresSafeArea(.all, edges: .top)
     }
     
-    func getTitleTextOffset()->CGFloat{
+    func getTitleTextOffset() -> CGFloat{
         
         // some amount of progress for slide effect..
         let progress = 20 / titleOffset
@@ -182,7 +198,7 @@ struct UserProfile: View {
         return offset
     }
     
-    func blurViewOpacity()->Double{
+    func blurViewOpacity() -> Double{
         
         let progress = -(offset + 80) / 150
         
