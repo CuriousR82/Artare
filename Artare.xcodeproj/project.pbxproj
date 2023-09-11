@@ -34,6 +34,10 @@
 		EB93602D2AAE6E9E00C61DD2 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB93602C2AAE6E9E00C61DD2 /* BlurView.swift */; };
 		EB9360312AAEA66E00C61DD2 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9360302AAEA66E00C61DD2 /* TabButton.swift */; };
 		EB9360332AAEB69100C61DD2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9360322AAEB69100C61DD2 /* WelcomeView.swift */; };
+		EBF890842AAF4FA800C9BEA2 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF890832AAF4FA800C9BEA2 /* RegisterView.swift */; };
+		EBF890862AAF50A900C9BEA2 /* CustomAuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF890852AAF50A900C9BEA2 /* CustomAuthTextField.swift */; };
+		EBF890882AAF517C00C9BEA2 /* SecureAuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF890872AAF517C00C9BEA2 /* SecureAuthTextField.swift */; };
+		EBF8908A2AAF54B100C9BEA2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF890892AAF54B100C9BEA2 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +69,10 @@
 		EB93602C2AAE6E9E00C61DD2 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		EB9360302AAEA66E00C61DD2 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		EB9360322AAEB69100C61DD2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		EBF890832AAF4FA800C9BEA2 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		EBF890852AAF50A900C9BEA2 /* CustomAuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthTextField.swift; sourceTree = "<group>"; };
+		EBF890872AAF517C00C9BEA2 /* SecureAuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureAuthTextField.swift; sourceTree = "<group>"; };
+		EBF890892AAF54B100C9BEA2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +159,8 @@
 				EB35B4692AAE184A00144B4C /* FollowView.swift */,
 				EB35B46B2AAE1B2E00144B4C /* MenuButton.swift */,
 				EB9360302AAEA66E00C61DD2 /* TabButton.swift */,
+				EBF890852AAF50A900C9BEA2 /* CustomAuthTextField.swift */,
+				EBF890872AAF517C00C9BEA2 /* SecureAuthTextField.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -159,6 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				EB9360322AAEB69100C61DD2 /* WelcomeView.swift */,
+				EBF890832AAF4FA800C9BEA2 /* RegisterView.swift */,
+				EBF890892AAF54B100C9BEA2 /* LoginView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -319,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB35B4562AAD567300144B4C /* PostCellView.swift in Sources */,
+				EBF8908A2AAF54B100C9BEA2 /* LoginView.swift in Sources */,
 				EB35B4662AAD7CE500144B4C /* MainView.swift in Sources */,
 				EB93602D2AAE6E9E00C61DD2 /* BlurView.swift in Sources */,
 				EB35B46C2AAE1B2E00144B4C /* MenuButton.swift in Sources */,
@@ -333,11 +346,14 @@
 				EB35B4422AAD225900144B4C /* Home.swift in Sources */,
 				EB35B4642AAD791400144B4C /* TopBar.swift in Sources */,
 				EB35B4502AAD49A000144B4C /* CreatePostView.swift in Sources */,
+				EBF890862AAF50A900C9BEA2 /* CustomAuthTextField.swift in Sources */,
+				EBF890842AAF4FA800C9BEA2 /* RegisterView.swift in Sources */,
 				EB35B46A2AAE184A00144B4C /* FollowView.swift in Sources */,
 				EB35B44E2AAD361E00144B4C /* MessagesView.swift in Sources */,
 				EB93602B2AAE6CC300C61DD2 /* UserProfile.swift in Sources */,
 				EB35B4542AAD4B1900144B4C /* MultilineTextField.swift in Sources */,
 				EB35B4282AAD210800144B4C /* ArtareApp.swift in Sources */,
+				EBF890882AAF517C00C9BEA2 /* SecureAuthTextField.swift in Sources */,
 				EB9360332AAEB69100C61DD2 /* WelcomeView.swift in Sources */,
 				EB35B44C2AAD360E00144B4C /* NotificationsView.swift in Sources */,
 				EB9360312AAEA66E00C61DD2 /* TabButton.swift in Sources */,
