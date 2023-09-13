@@ -9,6 +9,8 @@ import SwiftUI
 
 struct LoginView: View {
     
+    @StateObject var viewModel = AuthViewModel()
+    
     @State var email = ""
     @State var password = ""
     @State var emailDone = false
@@ -107,7 +109,7 @@ struct LoginView: View {
                 
                 VStack {
                     Button(action: {
-                        
+                        self.viewModel.login(email: email, password: password)
                     }, label: {
                         Capsule()
                             .frame(width: 360, height: 40, alignment: .center)

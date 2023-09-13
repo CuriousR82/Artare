@@ -240,7 +240,7 @@
 		EB35B4432AAD225D00144B4C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				EBF6072A2AB156A600D0EB92 /* AuthViewModel.swift */,
+				EB6E66682AB242DB002DAB81 /* Authentication */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -267,6 +267,14 @@
 				EB35B45D2AAD65F200144B4C /* Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EB6E66682AB242DB002DAB81 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6072A2AB156A600D0EB92 /* AuthViewModel.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
