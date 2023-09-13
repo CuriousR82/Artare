@@ -9,9 +9,12 @@ import SwiftUI
 
 struct RegisterView: View {
     
+    @StateObject var viewModel = AuthViewModel()
+    
     @State var name = ""
     @State var email = ""
     @State var password = ""
+    
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
@@ -56,7 +59,7 @@ struct RegisterView: View {
                     Spacer()
                     
                     Button(action: {
-                        
+                        self.viewModel.register(name: name, username: name, email: email, password: password)
                     }, label: {
                         Capsule()
                             .frame(width: 70, height: 35, alignment: .center)
