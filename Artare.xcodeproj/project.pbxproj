@@ -125,7 +125,6 @@
 				EB35B4382AAD220A00144B4C /* Post */,
 				EB35B4372AAD21EE00144B4C /* Profile */,
 				EB35B4272AAD210800144B4C /* ArtareApp.swift */,
-				EB35B4292AAD210800144B4C /* ContentView.swift */,
 				EB35B4352AAD21A700144B4C /* Assets.xcassets */,
 				EB35B42D2AAD210800144B4C /* Preview Content */,
 			);
@@ -174,6 +173,7 @@
 		EB35B43A2AAD221900144B4C /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				EB35B4292AAD210800144B4C /* ContentView.swift */,
 				EB9360322AAEB69100C61DD2 /* WelcomeView.swift */,
 				EBF890832AAF4FA800C9BEA2 /* RegisterView.swift */,
 				EBF890892AAF54B100C9BEA2 /* LoginView.swift */,

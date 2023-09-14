@@ -94,4 +94,4 @@ struct PostCellView_Previews: PreviewProvider {
     }
 }
 
-var sampleText = "Hi, my name is Rosa, I hope to create a difference between the world of computers and art!"
+var sampleText = "Hiii have you guys tried out the Faber Castell watercolour pencils?"

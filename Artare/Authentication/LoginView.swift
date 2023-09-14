@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LoginView: View {
     
-    @StateObject var viewModel = AuthViewModel()
+    @EnvironmentObject var viewModel: AuthViewModel
     
     @State var email = ""
     @State var password = ""
@@ -18,109 +18,111 @@ struct LoginView: View {
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
-        if !emailDone {
-            VStack {
+        NavigationStack {
+            if !emailDone {
                 VStack {
-                    ZStack {
-                        HStack {
-                            Button(action: {
-                                dismiss()
-                            }, label: {
-                                Text("Cancel")
-                                    .foregroundColor(.blue)
-                            })
+                    VStack {
+                        ZStack {
+                            HStack {
+                                Button(action: {
+                                    dismiss()
+                                }, label: {
+                                    Text("Cancel")
+                                        .foregroundColor(.blue)
+                                })
+                                
+                                Spacer()
+                            }
+                            .padding(.horizontal)
                             
-                            Spacer()
+                            Image(systemName: "paintbrush.pointed.fill")
+                                .foregroundColor(.blue)
+                                .padding(.trailing)
+                            
                         }
-                        .padding(.horizontal)
                         
-                        Image(systemName: "paintbrush.pointed.fill")
-                            .foregroundColor(.blue)
-                            .padding(.trailing)
+                        Text("Enter your phone, email, or username to get started!")
+                            .font(.title2)
+                            .fontWeight(.heavy)
+                            .multilineTextAlignment(.center)
+                            .padding(.horizontal)
+                            .padding(.top)
                         
+                        CustomAuthTextField(placeholder: "Phone, email, or username", text: $email)
                     }
                     
-                    Text("Enter your phone, email, or username to get started!")
-                        .font(.title2)
-                        .fontWeight(.heavy)
-                        .multilineTextAlignment(.center)
-                        .padding(.horizontal)
-                        .padding(.top)
+                    Spacer(minLength: 0)
                     
-                    CustomAuthTextField(placeholder: "Phone, email, or username", text: $email)
-                }
-                
-                Spacer(minLength: 0)
-                
-                VStack {
-                    Button(action: {
+                    VStack {
+                        Button(action: {
+                            
+                            if !email.isEmpty {
+                                self.emailDone.toggle()
+                            }
+                            
+                        }, label: {
+                            Capsule()
+                                .frame(width: 360, height: 40, alignment: .center)
+                                .foregroundColor(.blue)
+                                .overlay(Text("Next"))
+                                .foregroundColor(.white)
+                        })
+                        .padding(.bottom, 4)
                         
-                        if !email.isEmpty {
-                            self.emailDone.toggle()
-                        }
-                        
-                    }, label: {
-                        Capsule()
-                            .frame(width: 360, height: 40, alignment: .center)
+                        Text("Forgot Password?")
                             .foregroundColor(.blue)
-                            .overlay(Text("Next"))
-                            .foregroundColor(.white)
-                    })
-                    .padding(.bottom, 4)
-                    
-                    Text("Forgot Password?")
-                        .foregroundColor(.blue)
+                    }
                 }
             }
-        }
-        else {
-            VStack {
+            else {
                 VStack {
-                    ZStack {
-                        HStack {
-                            Button(action: {
-                                dismiss()
-                            }, label: {
-                                Text("Cancel")
-                                    .foregroundColor(.blue)
-                            })
+                    VStack {
+                        ZStack {
+                            HStack {
+                                Button(action: {
+                                    dismiss()
+                                }, label: {
+                                    Text("Cancel")
+                                        .foregroundColor(.blue)
+                                })
+                                
+                                Spacer()
+                            }
+                            .padding(.horizontal)
                             
-                            Spacer()
+                            Image(systemName: "paintbrush.pointed.fill")
+                                .foregroundColor(.blue)
+                                .padding(.trailing)
+                            
                         }
-                        .padding(.horizontal)
                         
-                        Image(systemName: "paintbrush.pointed.fill")
-                            .foregroundColor(.blue)
-                            .padding(.trailing)
+                        Text("Enter your password")
+                            .font(.title2)
+                            .fontWeight(.heavy)
+                            .multilineTextAlignment(.center)
+                            .padding(.horizontal)
+                            .padding(.top)
                         
+                        SecureAuthTextField(placeholder: "Password", text: $password)
                     }
                     
-                    Text("Enter your password")
-                        .font(.title2)
-                        .fontWeight(.heavy)
-                        .multilineTextAlignment(.center)
-                        .padding(.horizontal)
-                        .padding(.top)
+                    Spacer(minLength: 0)
                     
-                    SecureAuthTextField(placeholder: "Password", text: $password)
-                }
-                
-                Spacer(minLength: 0)
-                
-                VStack {
-                    Button(action: {
-                        self.viewModel.login(email: email, password: password)
-                    }, label: {
-                        Capsule()
-                            .frame(width: 360, height: 40, alignment: .center)
+                    VStack {
+                        Button(action: {
+                            self.viewModel.login(email: email, password: password)
+                        }, label: {
+                            Capsule()
+                                .frame(width: 360, height: 40, alignment: .center)
+                                .foregroundColor(.blue)
+                                .overlay(Text("Log in"))
+                                .foregroundColor(.white)
+                        })
+                        .padding(.bottom, 4)
+                        
+                        Text("Forgot Password?")
                             .foregroundColor(.blue)
-                            .overlay(Text("Log in"))
-                            .foregroundColor(.white)
-                    })
-                    .padding(.bottom, 4)
-                    
-                    Text("Forgot Password?")
-                        .foregroundColor(.blue)
+                    }
                 }
             }
         }

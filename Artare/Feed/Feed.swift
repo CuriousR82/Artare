@@ -14,11 +14,15 @@ struct Feed: View {
                 
                 PostCellView(post: "Hey Tim, are those regular glasses?", postImage: "post")
                 Divider()
-                
+
                 ForEach(1...20, id: \.self) { _ in
                     PostCellView(post: sampleText)
                     Divider()
                 }
+                
+                PostCellView(post: sampleText)
+//                Divider()
+//                PostCellView(post: "I have just finished my still-life piece w/ graphite!", postImage: "Cat")
             }
             .padding(.top)
             .padding(.horizontal)

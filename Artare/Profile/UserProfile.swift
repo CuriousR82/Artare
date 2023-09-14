@@ -110,14 +110,14 @@ struct UserProfile: View {
                         Text("Hi, my name is Rosa, I hope to create a difference between the world of computers and art!")
                         
                         HStack(spacing: 5, content: {
-                            Text("13")
+                            Text("8")
                                 .foregroundColor(.primary)
                                 .fontWeight(.semibold)
                             
                             Text("Followers")
                                 .foregroundColor(.gray)
                             
-                            Text("680")
+                            Text("18")
                                 .foregroundColor(.primary)
                                 .fontWeight(.semibold)
                                 .padding(.leading, 10)
@@ -169,14 +169,21 @@ struct UserProfile: View {
                     
                     VStack (spacing: 18) {
                         PostCellView(post: "Hey Tim, are those regular glasses?", postImage: "post")
-                        
+
                         Divider()
-                        
+
                         ForEach(0..<20, id: \.self) { _ in
                             PostCellView(post: sampleText)
-                            
+
                             Divider()
                         }
+                        
+                        // ____________
+//                        PostCellView(post: sampleText)
+//                        Divider()
+//                        PostCellView(post: "I have just finished my still-life piece w/ graphite!", postImage: "Cat")
+                        
+                        //_____________
                     }
                     .padding(.top)
                     .zIndex(0)
