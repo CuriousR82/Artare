@@ -169,9 +169,15 @@ struct UserProfile: View {
                     .zIndex(1)
                     
                     VStack (spacing: 18) {
+                        PostCellView(post: sampleText)
+                        
+                        Divider()
+                        
                         PostCellView(post: "I have just finished my still-life w/ graphite!", postImage: "Cat")
                         
                         Divider()
+                        
+                        PostCellView(post: "Choosing which pencil to work with for graphite pieces are so harddd")
                         
                         ForEach(0..<20, id: \.self) { _ in
                             PostCellView(post: sampleText)
