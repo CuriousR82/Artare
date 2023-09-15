@@ -55,7 +55,7 @@ struct UserProfile: View {
                                     .foregroundColor(.white)
 //                                    .padding(.top, 2)
                                 
-                                Text("150 Posts")
+                                Text("10 Posts")
                                     .foregroundColor(.white)
                             }
                             // to slide from bottom added extra 60..
@@ -108,17 +108,17 @@ struct UserProfile: View {
                         Text("@CuriousR")
                             .foregroundColor(.gray)
                         
-                        Text("Hey, my name is Rosa I hope to create a difference between the world of computers and art!")
+                        Text("Hey, my name is Rosa, I hope to create a difference between the world of computers and art!")
                         
                         HStack(spacing: 5, content: {
-                            Text("13")
+                            Text("8")
                                 .foregroundColor(.primary)
                                 .fontWeight(.semibold)
                             
                             Text("Followers")
                                 .foregroundColor(.gray)
                             
-                            Text("680")
+                            Text("18")
                                 .foregroundColor(.primary)
                                 .fontWeight(.semibold)
                                 .padding(.leading, 10)
