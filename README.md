@@ -16,19 +16,19 @@ As an artist myself, I have always wondered that, so I have decided to make one!
 
 #### Let's look at Artare!
 Here is the register page that new users will first encounter :relieved: 
-<img src="/readme_pics/register.png" width="300">
+![1](/readme_pics/register.png)
 
 If user is not new to Artare, they can log in with the [Log in]() button on the welcome page :eyes:
-<img src="/readme_pics/login.png" width="300">
+![2](/readme_pics/login.png)
 
 This is what the main components of Artare looks like! :blush: 
-<img src="/readme_pics/main.png" width="500">
+![3](/readme_pics/main.png)
 
 The profile view looks like this :sleepy: 
-<img src="/readme_pics/profile.png" width="300">
+![4](/readme_pics/profile.png)
 
 Here are pages such as search, notifications, and messages! 
-<img src="/readme_pics/search.png" width="500">
+![5](/readme_pics/search.png)
 
 Finally, this is the dark mode version of Artare! 
-<img src="/readme_pics/dark.png" width="500">
+![6](/readme_pics/dark.png)
