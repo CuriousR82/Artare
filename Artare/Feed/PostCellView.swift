@@ -70,7 +70,7 @@ struct PostCellView: View {
                 Button(action: {
                     
                 }, label: {
-                    Image(systemName: "heart.fill")
+                    Image(systemName: "heart")
                         .resizable()
                         .frame(width: 17, height: 15)
                 }).foregroundColor(.gray)
