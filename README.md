@@ -9,13 +9,18 @@ As an artist myself, I have always wondered that, so I have decided to make one!
 
 
 #### For this Project, I have...
-- Used **Three.js** to form the scene, and **Cannon.js** as the 3D physics engine to animate the character and the events
-- Worked with **Blender** to model the 3D main character, and created **animations** using the Action Editor tool
-- Delivered **smooth gameplay** to users by using multiple types of cameras and position methods in **Three.js**
+- Implemented a social media app with the **MVVM architecture** for artists to share their thoughts and creations on each other’s works
+- Developed a **REST API** with **Bcrypt.js** to securely manage and perform **HTTP requests** with data validation/transformation, and encryption
+- Delivered high-quality art attachments using **Sharp** and **Multer**, up to **100 MB** in size
+- Incorporated smooth **animations** on gestures and **light and dark modes** for a more engaging user interaction
 
-#### Let's look at the game first!
-##### Brief overview of the game:
-- The game consists of one player, and a bridge with **10 strong** glasses, and **10 fragilent** glasses. 
-- To win the game, you will need to jump on 10 strong glasses in a row! :sunglasses:
+#### Let's look at Artare!
+![register](/readme_pics/register.png)
+Here is the register page that new users will first encounter :relieved:
 
-Below is the starting scene of the game. You can **drag**, **zoom**, or **press shift and drag** to customize your view. :laughing: 
+![login](/readme_pics/login.png)
+If user is not new to Artare, they can log in with the [Log in]() button on the welcome page :eyes:
+
+![main](/readme_pics/main.png)
+This is what the main components of Artare looks like!
+There is the home page where users can view other users posts, slide menu that operates both on tap of the hamburger icon and slide gesture, and the posting page. :blush:

@@ -1,9 +1,10 @@
 //
-//  UserProfile.swift
-//  twitter-clone (iOS)
+//  CreatePostView.swift
+//  Artare
 //
-//  Created by cem on 7/31/21.
+//  Created by Rosa Jeon on 2023-09-09.
 //
+
 
 import SwiftUI
 
@@ -37,7 +38,7 @@ struct UserProfile: View {
                         ZStack{
                             
                             // Banner...
-                            Image("banner")
+                            Image("banner2")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .frame(width: getRect().width, height: minY > 0 ? 180 + minY : 180, alignment: .center)
@@ -107,17 +108,17 @@ struct UserProfile: View {
                         Text("@CuriousR")
                             .foregroundColor(.gray)
                         
-                        Text("Hi, my name is Rosa, I hope to create a difference between the world of computers and art!")
+                        Text("Hey, my name is Rosa I hope to create a difference between the world of computers and art!")
                         
                         HStack(spacing: 5, content: {
-                            Text("8")
+                            Text("13")
                                 .foregroundColor(.primary)
                                 .fontWeight(.semibold)
                             
                             Text("Followers")
                                 .foregroundColor(.gray)
                             
-                            Text("18")
+                            Text("680")
                                 .foregroundColor(.primary)
                                 .fontWeight(.semibold)
                                 .padding(.leading, 10)
@@ -168,22 +169,15 @@ struct UserProfile: View {
                     .zIndex(1)
                     
                     VStack (spacing: 18) {
-                        PostCellView(post: "Hey Tim, are those regular glasses?", postImage: "post")
-
+                        PostCellView(post: "I have just finished my still-life w/ graphite!", postImage: "Cat")
+                        
                         Divider()
-
+                        
                         ForEach(0..<20, id: \.self) { _ in
                             PostCellView(post: sampleText)
-
+                            
                             Divider()
                         }
-                        
-                        // ____________
-//                        PostCellView(post: sampleText)
-//                        Divider()
-//                        PostCellView(post: "I have just finished my still-life piece w/ graphite!", postImage: "Cat")
-                        
-                        //_____________
                     }
                     .padding(.top)
                     .zIndex(0)
