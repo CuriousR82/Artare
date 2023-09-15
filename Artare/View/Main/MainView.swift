@@ -17,24 +17,25 @@ struct MainView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                ZStack(alignment: Alignment(horizontal: .leading, vertical: .center), content: {
+                ZStack(alignment: Alignment(horizontal: .leading, vertical: .center)) {
+                    
                     VStack {
                         TopBar(x: $x)
                         Home()
+                        
                     }
                     .offset(x: x + width)
                     
                     SlideMenu()
-                        .shadow(color: Color.black.opacity(x != 0 ? 0.1 : 0), radius: 5, x:5, y: 0)
+                        .shadow(color: Color.black.opacity(x != 0 ? 0.1 : 0), radius: 5, x: 5, y: 0)
                         .offset(x: x)
-                        .background(Color("base").opacity(x == 0 ? 0.5: 0))
-                        .ignoresSafeArea(.all, edges: .vertical)
-                        .onTapGesture {
-                            withAnimation {
+                        .background(Color.black.opacity(x == 0 ? 0.5 : 0).ignoresSafeArea(.all, edges: .vertical).onTapGesture {
+                            withAnimation{
+                                
                                 x = -width
                             }
-                        }
-                })
+                        })
+                }
                 .gesture(DragGesture().onChanged({ (value) in
                     withAnimation {
                         if value.translation.width > 0 {
@@ -50,7 +51,7 @@ struct MainView: View {
                 }).onEnded({ (value) in
                     withAnimation {
                         if (-x) < width / 1.7 { // 2 -> 4
-                                x = 0
+                            x = 0
                         }
                         else {
                             x = -width

@@ -20,7 +20,7 @@ struct ContentView: View {
         }
         else {
             WelcomeView()
-
+                
         }
         
         // ________
