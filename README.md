@@ -18,7 +18,7 @@ As an artist myself, I have always wondered that, so I have decided to make one!
 Here is the register page that new users will first encounter :relieved: 
 ![1](/readme_pics/register.png)
 
-If user is not new to Artare, they can log in with the [Log in]() button on the welcome page :eyes:
+If user is not new to Artare, they can log in with the "Log in" button on the welcome page :eyes:
 ![2](/readme_pics/login.png)
 
 This is what the main components of Artare looks like! :blush: 
@@ -32,3 +32,8 @@ Here are pages such as search, notifications, and messages!
 
 Finally, this is the dark mode version of Artare! 
 ![6](/readme_pics/dark.png)
+
+#### In the works... :hammer_and_wrench:
+Here are some pictures of me testing the API with **Studio 3T** and **Postman**!
+![7](/readme_pics/studio.png)
+![9](/readme_pics/postman.png)
