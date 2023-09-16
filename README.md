@@ -15,17 +15,17 @@ As an artist myself, I have always wondered that, so I have decided to make one!
 - Incorporated smooth **animations** on gestures and **light and dark modes** for a more engaging user interaction
 
 #### Let's look at Artare!
-Here is the register page that new users will first encounter :relieved: 
-![1](/readme_pics/register.png)
+Here is the register page that new users will first encounter :relieved:<br><img src="/readme_pics/register.png"  width="500">
+<!-- ![1](/readme_pics/register.png) -->
 
-If user is not new to Artare, they can log in with the "Log in" button on the welcome page :eyes:
-![2](/readme_pics/login.png)
+If user is not new to Artare, they can log in with the "Log in" button on the welcome page :eyes:<br><img src="/readme_pics/login.png"  width="500">
+<!-- ![2](/readme_pics/login.png) -->
 
 This is what the main components of Artare looks like! :blush: 
 ![3](/readme_pics/main.png)
 
-The profile view looks like this :sleepy: 
-![4](/readme_pics/profile.png)
+The profile view looks like this :sleepy: <br><img src="/readme_pics/profile.png"  width="500">
+<!-- ![4](/readme_pics/profile.png) -->
 
 Here are pages such as search, notifications, and messages! 
 ![5](/readme_pics/search.png)
